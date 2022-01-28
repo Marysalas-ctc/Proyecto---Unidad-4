@@ -5,38 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- CDN Bootstrap CSS-->
-
-<link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://i.icomoon.io/public/temp/1cfd343ae3/UntitledProject/style.css">
+<link rel="stylesheet" href="https://i.icomoon.io/public/temp/a7ceb3e4a5/UntitledProject/style.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'accounts/style.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <!-- CDN Css Personalizado -->
-<link rel="stylesheet" href="culturain.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/1cfd343ae3/UntitledProject/style.css">
+  <link rel="stylesheet" href="culturain.css">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" type="skeleton.css" href="">
 <title>Cultura In</title>
 </head>
 <body">
 
 <ul>
   <li><a class="active" href="#home">
-  <img src="img/logo.png" height="28">
-  Cultura2022</a></li>
+  <span class="icon-linkedin"></span>Cultura2022</a></li>
 
   <li><a href="#">
-  <img src="">
+  <span class="icon-rocket"></span>
   Paises</a></li>
 
-  <li><a href="#">
-  <img src="">
+  <li><a href="contact.html">
+  <span class="icon-address-book"></span>
   Contacto</a></li>
 
   <li><a href="#">
-  <img src="">
+  <span class="icon-finder"></span>
   Juegos</a></li> 
 
   <li><a href="#">
-  <img src="">
+  <span class="icon-bullhorn"></span>
   Nuevo</a></li>
 
   <li><a href="#">
-  <img src="">
+  <span class="icon-newspaper"></span>
   Periodico</a></li>
 
   <li><a href="#">
@@ -76,15 +82,13 @@
 
     <div class="col-md-3" style="margin-right:8% ;">
     <div> 
-    <h2 class="text-white display-6">!Conectate con todo el mundo y descubre nuevas culturas¡</h2>
+    <h2 class="text-white display-4">!Conectate con todo el mundo y descubre nuevas culturas¡</h2>
 
-<p>
-<button type="button" class="ovama btn btn-primary btn-lg-">Chats en Linea</button>
-</p>
-
-<p>
-<button type="button" class="ovama btn btn-primary btn-lg">Descubre y sorprendete</button>  
-</p>
+    <br>
+    <div class="span2">
+      <p><button class="btn btn-primary btn-block " >Chats en Linea</button></p>
+      <p><button class="btn btn-success btn-block ">Descubre nuevas culturas</button></p>
+      </div>
 
 
 
@@ -95,8 +99,13 @@
 
 </div>
 </div>
-
-
+/*div dfe opciones de redes*/
+ <div class="social-bar">
+    <a href="https://www.facebook.com/DevCode.la" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/DevCodela" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/c/devcodela" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a>
+  </div>
 
 <br>
 <div class="cuadrado" style="margin-left:19%; margin-right: 5%;padding:8px 15px;height:500px ; ">
@@ -104,18 +113,19 @@
 <video class="video-fluid z-depth-1 col-md-8" controls >
   <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
 </video>
+
 </div>
 
 <br>
-<div class="cuadrado" style="margin-left:19%; margin-right: 5%;padding:8px 15px;height:500px ; ">
-<video class="video-fluid z-depth-1 col-md-8" controls >
-  <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-</video>
- 
+
+<div id="main" class="container">
+  <button type="button" name="yes">
+    <img width="100px" height="100%" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png">
+  </button>
+  <button type="button" name="no">
+    <img width="100px" height="100%" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Not_facebook_dislike_thumbs_down.png">
+  </button>
 </div>
-
-
-
 
 
 <script src="culturain.js"></script>
