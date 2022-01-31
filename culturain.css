@@ -1,0 +1,42 @@
+/*fuente del nva*/
+
+
+h2{
+  font-family: 'Bungee Inline', cursive;}
+
+
+body{
+  /* imagnem de la pag*/
+  background:url('https://i.pinimg.com/originals/c5/01/2e/c5012e8f438b77c18e9bdcfc5fbce55f.gif');
+  margin: 0;
+  background:url('https://i.pinimg.com/originals/15/fb/b4/15fbb49ffa58a649713f5358a1fc9d19.gif');
+ 
+        }
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background:url('https://i.pinimg.com/originals/50/13/7d/50137d12413d27bdcb99d6aa6184671e.gif') ;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: 'Staatliches', cursive;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+
+}
+
+li a.active {
+  background-color: #2E2C25;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color:  #2E2C25;
+  color: white;
+}
